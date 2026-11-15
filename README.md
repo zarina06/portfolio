@@ -17,6 +17,7 @@
 4. 4. **[QA_Portfolio_Wildberries_Docs-v3 xisx.xlsx](./QA_Portfolio_Wildberries_Docs-v3%20xisx.xlsx)** — Тестовая документация в формате Excel (сводный чек-лист, тест-кейсы и 3 баг-репорта по витрине и порталу селлера Wildberries).
    5. 5. **[SQL_Queries_Practice.md](./SQL_Queries_Practice.md)** — Примеры проверочных SQL-запросов (`SELECT`, `WHERE`, `GROUP BY`, `INNER/LEFT JOIN`) для тестирования целостности базы данных интернет-магазина.
 6. **[Mobile_Testing_Checklist.md](./Mobile_Testing_Checklist.md)** — Чек-лист тестирования мобильного приложения Wildberries на платформе iOS (сетевые сценарии, прерывания, фоновый режим и push-уведомления).
+7. 7. **[Test_Plan_WB_Seller.md](./Test_Plan_WB_Seller.md)** — Базовый тест-план для B2B-портала продавца Wildberries (цели, границы проверок Scope/Out of Scope, критерии и оценка бизнес-рисков).
 
 ---
 📫 **Контакты для связи:**  zarina100685@mail.ru
