@@ -14,6 +14,7 @@
 1. **[Ecommerce_API_Tests.postman_collection.json](./Ecommerce_API_Tests.postman_collection.json)** — Коллекция запросов в Postman для проверки REST API интернет-магазина (получение данных, создание карточки товара, обработка ошибки `404 Not Found`).
  2. **[Checklist_and_TestCases_WB.md](./Checklist_and_TestCases_WB.md)** — Чек-лист и подробные тест-кейсы для проверки поиска, фильтрации и адаптивной вёрстки маркетплейса Wildberries (подтверждено скриншотом [network_filter_200.png](./network_filter_200.png)).
 3. **[2. Bug_Reports.md](./2.%20Bug_Reports.md)** — Баг-репорт по выявленному дефекту сетевого запроса (ошибка CORS в консоли Chrome DevTools) с приложенным скриншотом.
+4. 4. **[QA_Portfolio_Wildberries_Docs-v3 xisx.xlsx](./QA_Portfolio_Wildberries_Docs-v3%20xisx.xlsx)** — Тестовая документация в формате Excel (сводный чек-лист, тест-кейсы и 3 баг-репорта по витрине и порталу селлера Wildberries).
 
 ---
 📫 **Контакты для связи:**  zarina100685@mail.ru
