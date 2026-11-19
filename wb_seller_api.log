@@ -1,0 +1,12 @@
+2026-11-19 14:28:10 [INFO] trace_id=wb-trc-10411 GET /api/v3/warehouses status=200
+2026-11-19 14:29:45 [INFO] trace_id=wb-trc-10412 PUT /api/v3/stocks/warehouse_12 payload={"sku":"441029","amount":15}
+2026-11-19 14:30:01 [INFO] trace_id=wb-trc-10415 PUT /api/v3/stocks/warehouse_12 payload={"sku":"8845120","amount":0}
+2026-11-19 14:30:02 [WARNING] trace_id=wb-trc-10415 Stock sync delay detected for warehouse_12
+2026-11-19 14:30:03 [ERROR] trace_id=wb-trc-10415 NullPointerException: Warehouse connection pool timeout at StocksService.update(StocksService.java:142)
+2026-11-19 14:30:03 [ERROR] trace_id=wb-trc-10415 HTTP 500 Internal Server Error returned to seller_id=50921
+2026-11-19 14:31:12 [INFO] trace_id=wb-trc-10419 GET /api/v2/cards/list status=200
+2026-11-19 15:10:05 [INFO] trace_id=wb-trc-77419 POST /api/v2/upload/task payload={"nm_id":8845120,"price":1990}
+2026-11-19 15:10:06 [WARNING] trace_id=wb-trc-77419 Cache miss for nm_id=8845120, querying PostgreSQL
+2026-11-19 15:10:06 [ERROR] trace_id=wb-trc-77419 ProductCardNotFoundException: Card nm_id=8845120 not found in table wb_seller_products
+2026-11-19 15:10:07 [ERROR] trace_id=wb-trc-77419 HTTP 404 Not Found returned to seller_id=50921
+2026-11-19 15:12:40 [INFO] trace_id=wb-trc-77425 GET /api/v3/orders/new status=200

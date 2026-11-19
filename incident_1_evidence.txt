@@ -1,0 +1,2 @@
+2026-11-19 14:30:03 [ERROR] trace_id=wb-trc-10415 NullPointerException: Warehouse connection pool timeout at StocksService.update(StocksService.java:142)
+2026-11-19 14:30:03 [ERROR] trace_id=wb-trc-10415 HTTP 500 Internal Server Error returned to seller_id=50921
