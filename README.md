@@ -21,6 +21,8 @@
    8. 8. **[Incident_Investigation_WB.md](./Incident_Investigation_WB.md)** — Расследование серверных инцидентов Wildberries (анализ логов через `grep` с контекстом, проверка данных в PostgreSQL по `trace_id` и оформление бэкенд баг-репортов).
       9. 9. **[WB_Incident_Investigation_Table.xlsx](./WB_Incident_Investigation_Table.xlsx)** — Таблица расследования серверных инцидентов Wildberries с фрагментами логов `grep`, SQL-запросами и чек-листом самопроверки.
          10. 10. **[иви_Mobile.xlsx](./иви_Mobile.xlsx)** — Ручное тестирование бета-версии мобильного приложения «Иви» (iOS, TestFlight): чек-лист проверок, тест-кейсы, баг-репорт и итоговая сводка.
+             11. 11. **[WB_Seller_Log_Investigation.xlsx](./WB_Seller_Log_Investigation.xlsx)** — Расследование серверных инцидентов (ошибки 500 и 404) в API кабинета продавца WB Partners: анализ логов в терминале (`grep`, пайпы, контекст `-C`), SQL-проверка БД (`SELECT`), баг-репорты и артефакты улик (`incident_1_evidence.txt`, `incident_2_evidence.txt`, `wb_incident_logs_terminal.png`).
+
 
 
 ---
