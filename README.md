@@ -23,6 +23,19 @@
          10. 10. **[иви_Mobile.xlsx](./иви_Mobile.xlsx)** — Ручное тестирование бета-версии мобильного приложения «Иви» (iOS, TestFlight): чек-лист проверок, тест-кейсы, баг-репорт и итоговая сводка.
              11. 11. **[WB_Seller_Log_Investigation.xlsx](./WB_Seller_Log_Investigation.xlsx)** — Расследование серверных инцидентов (ошибки 500 и 404) в API кабинета продавца WB Partners: анализ логов в терминале (`grep`, пайпы, контекст `-C`), SQL-проверка БД (`SELECT`), баг-репорты и артефакты улик (`incident_1_evidence.txt`, `incident_2_evidence.txt`, `wb_incident_logs_terminal.png`).
 
+# Тестирование REST API интернет-магазина (Postman)
+
+Коллекция автотестов и ручных проверок REST API для сферы E-commerce (категория «Домашний текстиль»).
+
+## Что реализовано в коллекции (`Ecommerce_API_Tests.postman_collection.json`):
+- **GET_All_Items** — позитивная проверка получения списка товаров (`200 OK`) с автотестом на JavaScript (`pm.test`).
+- **POST_Create_Item** — проверка создания новой карточки товара с передачей валидного JSON-тела (`title`, `category`, `price`).
+- **GET_Error_404** — негативный сценарий проверки обработки несуществующего эндпоинта (`404 Not Found`).
+- **Настройка переменных коллекции** (`{{wb_token}}`) для безопасной работы с заголовками авторизации (`API Key` в `Header`).
+
+## Инструменты:
+- Postman (Collection v2.1, JavaScript Tests, Collection Variables)
+- REST API / JSON / HTTP-методы (`GET`, `POST`)
 
 
 ---
